@@ -27,10 +27,10 @@ To get started with the HR Management System, follow these steps:
 1. Ensure you have Apache Tomcat installed. If not, you can download it from [here](http://tomcat.apache.org/) and follow the installation instructions provided.
 
 2. Clone the repository:
-   `https://github.com/Omar-Abdelmutaleb/HR-Webservices-API.git`
-3. Build the project using Maven
+  ```https://github.com/Omar-Abdelmutaleb/HR-Webservices-APIs.git```
+4. Build the project using Maven
    `mvn clean install`
-4. Deploy the built WAR file to your Tomcat server. You can do this by copying the WAR file from the target directory to the webapps directory in your Tomcat installation.
+5. Deploy the built WAR file to your Tomcat server. You can do this by copying the WAR file from the target directory to the webapps directory in your Tomcat installation.
 
 Start your Tomcat server:
 
