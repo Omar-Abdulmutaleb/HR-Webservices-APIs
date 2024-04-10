@@ -1,0 +1,30 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint
+            name="EmployeeServiceEndpoint"
+            implementation="gov.iti.jets.controllers.EmployeeController"
+            url-pattern="/soap/employee"/>
+    <endpoint
+            name="DepartmentServiceEndpoint"
+            implementation="gov.iti.jets.controllers.DepartmentController"
+            url-pattern="/soap/department"/>
+    <endpoint
+            name="AttendanceRecordServiceEndpoint"
+            implementation="gov.iti.jets.controllers.AttendanceRecordController"
+            url-pattern="/soap/attendance"/>
+    <endpoint
+            name="TrainingSessionServiceEndpoint"
+            implementation="gov.iti.jets.controllers.TrainingSessionController"
+            url-pattern="/soap/session"/>
+    <endpoint
+            name="SalaryServiceEndpoint"
+            implementation="gov.iti.jets.controllers.SalaryController"
+            url-pattern="/soap/salary"/>
+    <endpoint
+            name="PerformanceReviewServiceEndpoint"
+            implementation="gov.iti.jets.controllers.PerformanceReviewController"
+            url-pattern="/soap/review"/>
+    <endpoint
+            name="JobTitleServiceEndpoint"
+            implementation="gov.iti.jets.controllers.JobTitleController"
+            url-pattern="/soap/job"/>
+</endpoints>
