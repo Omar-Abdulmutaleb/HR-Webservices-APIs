@@ -1,4 +1,4 @@
-# HR Management System
+# HR Management System API
 
 The HR Management System is a comprehensive software solution designed to streamline human resources processes within organizations. It offers a range of functionalities to manage employee data, salaries, attendance and leave management, training sessions, and more.
 
